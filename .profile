@@ -20,3 +20,5 @@ export OMZ_HOME=$HOME/opt/omz
 
 export PATH=$HOME_PATH:$JAVA_PATH:$RVM_PATH:$NVM_PATH:$CABAL_PATH:$ARCANIST_PATH:$PATH
 
+# Terminal
+export TERM=xterm-256color
