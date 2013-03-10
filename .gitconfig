@@ -1,0 +1,44 @@
+[user]
+	name = Pavel Chernykh
+	email = pavel.v.chernykh@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	grep = auto
+	interactive = auto
+	showbranch = auto
+[diff]
+	tool = meld
+[alias]
+	a = add
+	ai = add -i
+	b = branch
+	ci = commit
+	cf = cat-file
+	cm = commit -m
+	co = checkout
+	ciam = commit -a -m
+	d = diff
+	ds = diff --staged
+	dt = difftool
+	h = help
+	lstr = ls-tree -r
+	m = merge
+	mf = merge --no-ff
+	mt = mergetool
+	rl = reflog
+	ri = rebase --interactive
+	s = status
+	sb = show-branch
+	sba = show-branch --all
+	st = stash
+	sp = stash pop
+	sl = stash list
+	t = tag
+[merge]
+	tool = meld
+[web]
+	browser = chromium-browser
+[github]
+	user = pavel-v-chernykh
