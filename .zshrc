@@ -38,7 +38,8 @@ plugins=(ant
          themes
          urltools
          vagrant
-         virtualenvwrapper)
+         virtualenvwrapper
+         xterm)
 
 # Load zsh config
 source $ZSH/oh-my-zsh.sh
