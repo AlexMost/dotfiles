@@ -22,6 +22,7 @@
 	d = diff
 	ds = diff --staged
 	dt = difftool
+	fa = fetch --all
 	h = help
 	lstr = ls-tree -r
 	m = merge
