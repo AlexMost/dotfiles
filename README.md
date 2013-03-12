@@ -1,5 +1,6 @@
 dots
 ====
-Shell config and other stuff.
+Puts my dot files in a good order:
 
-Vim config based on vim kit [janus](https://github.com/carlhuda/janus)
+* Vim config format according to vim kit [janus](https://github.com/carlhuda/janus)
+* Zsh config format according to zsh kit [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
