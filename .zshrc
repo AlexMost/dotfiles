@@ -28,6 +28,7 @@ plugins=(ant
          mercurial
          npm
          nvm
+         paster
          pip
          redis-cli
          rsync
