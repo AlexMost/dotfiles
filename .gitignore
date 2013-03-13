@@ -1,4 +1,4 @@
-# Ignore all
+# ignore all
 *
 
 # except
@@ -19,3 +19,6 @@
 !.zlogout
 !.zprofile
 !.zshenv
+
+# zsh prezto configs
+!.zpreztorc
