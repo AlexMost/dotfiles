@@ -1,5 +1,5 @@
 # Set zsh 
-export ZSH=$OMZ_HOME
+export ZSH=$HOME/.oh-my-zsh
 
 # Set zsh theme
 export ZSH_THEME="gnzh.custom"
