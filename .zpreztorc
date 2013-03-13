@@ -30,14 +30,19 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'directory' \
   'spectrum' \
+  'gnu-utility' \
   'utility' \
   'completion' \
-  'prompt' \
   'git' \
-  'fasd' \
+  'archive' \
+  'perl' \
   'haskell' \
   'python' \
-  'node'
+  'ruby' \
+  'fasd' \
+  'node' \
+  'history-substring-search' \
+  'prompt'
 #
 # Editor
 #
@@ -46,14 +51,14 @@ zstyle ':prezto:load' pmodule \
 zstyle ':prezto:module:editor' keymap 'emacs'
 
 # Auto convert .... to ../..
-# zstyle ':prezto:module:editor' dot-expansion 'yes'
+zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 #
 # Git
 #
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
-# zstyle ':prezto:module:git:status:ignore' submodules 'all'
+zstyle ':prezto:module:git:status:ignore' submodules 'all'
 
 #
 # GNU Utility
@@ -76,7 +81,7 @@ zstyle ':prezto:module:editor' keymap 'emacs'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'nicoulaj'
 
 #
 # Screen
@@ -108,12 +113,12 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 # Set syntax highlighters.
 # By default main, brackets, and cursor are enabled.
-# zstyle ':prezto:module:syntax-highlighting' highlighters \
-#   'main' \
-#   'brackets' \
-#   'pattern' \
-#   'cursor' \
-#   'root'
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+   'main' \
+   'brackets' \
+   'pattern' \
+   'cursor' \
+   'root'
 
 #
 # Terminal
