@@ -10,6 +10,9 @@
 !.gitignore
 !.gitconfig
 
+# hg
+!.hgrc
+
 # (g)vim
 !.vimrc.after
 !.gvimrc.after
