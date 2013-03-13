@@ -1,0 +1,8 @@
+[ui]
+username = Pavel Chernykh pavel.v.chernykh@gmail.com
+
+[extensions]
+color =
+
+[merge-tools]
+meld.args = $base $local $other
