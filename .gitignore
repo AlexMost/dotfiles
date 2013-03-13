@@ -1,7 +1,21 @@
+# Ignore all
 *
 
+# except
+
+# bins
 !bin
+
+# git
 !.gitignore
 !.gitconfig
+
+# (g)vim
 !.vimrc.after
 !.gvimrc.after
+
+# zsh
+!.zlogin
+!.zlogout
+!.zprofile
+!.zshenv
