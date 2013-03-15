@@ -39,8 +39,6 @@ plugins=(ant
          urltools
          vagrant
          virtualenvwrapper
-         xterm
-         zsh-completions
          zsh-history-substring-search
          zsh-syntax-highlighting)
 
