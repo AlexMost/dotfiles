@@ -4,7 +4,7 @@ export ZSH_COMPLETIONS=$ZSH/completions/src
 export ZSH_THEME="gnzh.custom"
 
 # Set update interval for zsh
-export UPDATE_ZSH_DAYS=7
+export UPDATE_ZSH_DAYS=30
 
 # Select zsh plugins
 plugins=(ant
