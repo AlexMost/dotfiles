@@ -1,7 +1,6 @@
 # Set zsh 
 export ZSH=$HOME/.oh-my-zsh
-
-# Set zsh theme
+export ZSH_COMPLETIONS=$ZSH/completions/src
 export ZSH_THEME="gnzh.custom"
 
 # Set update interval for zsh
