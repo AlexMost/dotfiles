@@ -1,14 +1,46 @@
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+# Set zsh 
+export ZSH=$HOME/.oh-my-zsh
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+# Set zsh theme
+export ZSH_THEME="gnzh.custom"
 
-# Customize to your needs...
+# Set update interval for zsh
+export UPDATE_ZSH_DAYS=7
 
+# Select zsh plugins
+plugins=(ant
+         cabal
+         cake
+         coffee
+         command-not-found
+         debian
+         encode64
+         extract
+         fasd
+         gem
+         git
+         git-extras
+         github
+         heroku
+         jake-node
+         lein
+         mvn
+         mercurial
+         npm
+         nvm
+         paster
+         pip
+         redis-cli
+         rsync
+         rvm
+         screen
+         sublime
+         svn
+         themes
+         urltools
+         vagrant
+         virtualenvwrapper
+         xterm)
+
+# Load zsh config
+source $ZSH/oh-my-zsh.sh
