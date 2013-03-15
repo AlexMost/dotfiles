@@ -1,4 +1,4 @@
 dots
 ====
-Puts my dot files in a good order:
+Puts my dot files in a good order
 
