@@ -40,7 +40,10 @@ plugins=(ant
          urltools
          vagrant
          virtualenvwrapper
-         xterm)
+         xterm
+         zsh-completions
+         zsh-history-substring-search
+         zsh-syntax-highlighting)
 
 # Load zsh config
 source $ZSH/oh-my-zsh.sh
