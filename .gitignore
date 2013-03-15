@@ -18,6 +18,7 @@
 !.gvimrc
 
 # zsh
+!.zshenv
 !.zshrc
 
 # oh my zsh
