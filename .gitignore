@@ -14,14 +14,11 @@
 !.hgrc
 
 # (g)vim
-!.vimrc.after
-!.gvimrc.after
+!.vimrc
+!.gvimrc
 
 # zsh
-!.zlogin
-!.zlogout
-!.zprofile
-!.zshenv
+!.zshrc
 
-# zsh prezto configs
-!.zpreztorc
+# oh my zsh
+!.oh-my-zsh
