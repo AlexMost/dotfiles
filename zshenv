@@ -46,3 +46,5 @@ ARCANIST_PATH=$ARCANIST_HOME/bin
 
 export PATH=$ARCANIST_PATH:$CABAL_PATH:$PATH
 
+export VIRTUALENVWRAPPER_SCRIPT=/etc/bash_completion.d/virtualenvwrapper
+
