@@ -74,7 +74,6 @@ Bundle 'vim-scripts/YankRing.vim'
 " Color Scheme ----------------------------------------------------------- {{{
 
 " A usable color scheme.
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
 
 " }}}
@@ -1039,24 +1038,6 @@ let g:showmarks_enable = 0
 
 " Do not include the various brace marks (), {}, etc.
 let g:showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY"
-
-" }}}
-" Solarized -------------------------------------------------------------- {{{
-
-if exists('g:colors_name') && g:colors_name == 'solarized'
-    " Text is unreadable with background transparency.
-    if has('gui_macvim')
-        set transparency=0
-    endif
-
-    " Highlighted text is unreadable in Terminal.app because it
-    " does not support setting of the cursor foreground color.
-    if !has('gui_running') && $TERM_PROGRAM == 'Apple_Terminal'
-        if &background == 'dark'
-            hi Visual term=reverse cterm=reverse ctermfg=10 ctermbg=7
-        endif
-    endif
-endif
 
 " }}}
 " Splice ----------------------------------------------------------------- {{{
