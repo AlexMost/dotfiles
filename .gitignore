@@ -21,5 +21,9 @@
 !.zshenv
 !.zshrc
 
+# prezto
+!.zprezto
+!.zpreztorc
+
 # oh my zsh
 !.oh-my-zsh
