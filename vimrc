@@ -268,7 +268,7 @@ Bundle 'sorin-ionescu/vim-ruby-block-conv'
 set modelines=0
 
 " Large undo levels.
-set undolevels=1000
+set undolevels=100
 
 " Size of command history.
 set history=50
@@ -282,29 +282,11 @@ set encoding=utf8
 " Fix backspace.
 set backspace=indent,eol,start
 
-" Keep a backup file.
-set backup
-
-" Do not back up temporary files.
-set backupskip=/tmp/*,/private/tmp/*"
-
-" Store backup files in one place.
-set backupdir^=$HOME/.vim/backup//
-
 " Store swap files in one place.
 set dir^=$HOME/.vim/swap//
 
-" Store undo files in one place.
-set undodir^=$HOME/.vim/undo//
-
 " Store view files in one place.
 set viewdir=$HOME/.vim/view//
-
-" Save undo tree.
-set undofile
-
-" Allow undoing a reload from disk.
-set undoreload=1000
 
 " Auto read externally modified files.
 set autoread
