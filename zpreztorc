@@ -26,6 +26,7 @@ zstyle ':prezto:load' zfunction 'zargs' 'zmv'
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
+  'command-not-found' \
   'editor' \
   'history' \
   'directory' \
@@ -36,6 +37,7 @@ zstyle ':prezto:load' pmodule \
   'arcanist' \
   'git' \
   'archive' \
+  'rsync' \
   'haskell' \
   'perl' \
   'python' \
