@@ -35,16 +35,6 @@ fi
 typeset -gU cdpath fpath mailpath manpath path
 typeset -gUT INFOPATH infopath
 
-RVM_HOME=$HOME/.rvm
-RVM_PATH=$RVM_HOME/bin
-
-NVM_HOME=$HOME/.nvm
-NVM_PATH=$NVM_HOME/bin
-
-ARCANIST_HOME=$HOME/opt/arcanist
-ARCANIST_PATH=$ARCANIST_HOME/bin
-
-export PATH=$ARCANIST_PATH:$CABAL_PATH:$PATH
-
+export ARCANIST_HOME=$HOME/opt/arcanist
 export VIRTUALENVWRAPPER_SCRIPT=/etc/bash_completion.d/virtualenvwrapper
 
