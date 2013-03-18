@@ -36,5 +36,7 @@ typeset -gU cdpath fpath mailpath manpath path
 typeset -gUT INFOPATH infopath
 
 export ARCANIST_HOME=$HOME/opt/arcanist
+
 export VIRTUALENVWRAPPER_SCRIPT=/etc/bash_completion.d/virtualenvwrapper
+export VIRTUALENVWRAPPER_LAZY_SCRIPT=/usr/share/doc/virtualenvwrapper/examples/virtualenvwrapper_lazy.sh
 
