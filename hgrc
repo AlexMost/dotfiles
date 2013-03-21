@@ -11,6 +11,10 @@ username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
 
 [extensions]
 color =
+mercurial_keyring =
+fetch =
+transplant =
+bookmarks =
 
 [merge-tools]
 meld.args = $base $local $other
