@@ -1,3 +1,11 @@
+[alias]
+d = diff
+f = fetch
+pl = pull
+ps = push
+s = status
+u = update
+
 [ui]
 username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
 
