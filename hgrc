@@ -16,5 +16,8 @@ fetch =
 transplant =
 bookmarks =
 
+[diff]
+git = True
+
 [merge-tools]
 meld.args = $base $local $other
