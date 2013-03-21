@@ -12,7 +12,7 @@ esac
 
 # Set editors
 export EDITOR='vim'
-export VISUAL='vim'
+export VISUAL='subl'
 export PAGER='less'
 
 # Set the default Less options.
