@@ -1,6 +1,8 @@
 [alias]
 d = diff
+i = in
 f = fetch
+o = out
 pl = pull
 ps = push
 s = status
