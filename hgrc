@@ -7,6 +7,7 @@ pl = pull
 ps = push
 s = status
 u = update
+uc = update -C
 
 [ui]
 username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
