@@ -10,6 +10,8 @@ case $OSTYPE in
   darwin* ) export BROWSER='open';;
 esac
 
+alias open='$BROWSER'
+
 # Set editors
 export EDITOR='vim'
 export VISUAL='subl'
