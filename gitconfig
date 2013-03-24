@@ -40,6 +40,6 @@
 [merge]
 	tool = meld
 [web]
-	browser = chromium-browser
+	browser = google-chrome
 [github]
 	user = pavel-v-chernykh
