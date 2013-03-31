@@ -14,10 +14,14 @@
 	a = add
 	ai = add -i
 	b = branch
+	bv = branch -v
+	bav = branch -av
+	c = clone
+	cb = checkout -b
 	ci = commit
 	cf = cat-file
-	cm = commit -m
 	co = checkout
+	cim = commit -m
 	ciam = commit -a -m
 	d = diff
 	ds = diff --staged
@@ -28,6 +32,8 @@
 	m = merge
 	mf = merge --no-ff
 	mt = mergetool
+	pl = pull
+	ps = push
 	rl = reflog
 	ri = rebase --interactive
 	s = status
