@@ -21,6 +21,7 @@
 	ci = commit
 	cf = cat-file
 	co = checkout
+	cof = checkout -f
 	cim = commit -m
 	ciam = commit -a -m
 	d = diff
