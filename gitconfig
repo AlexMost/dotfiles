@@ -22,8 +22,9 @@
 	ci = commit
 	cf = cat-file
 	co = checkout
-	cof = checkout -f
+	cam = commit --amend
 	cim = commit -m
+	cof = checkout -f
 	ciam = commit -a -m
 	d = diff
 	ds = diff --staged
