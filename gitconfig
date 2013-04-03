@@ -2,12 +2,7 @@
 	name = Pavel Chernykh
 	email = pavel.v.chernykh@gmail.com
 [color]
-	branch = auto
-	diff = auto
-	status = auto
-	grep = auto
-	interactive = auto
-	showbranch = auto
+	ui = true
 [diff]
 	tool = meld
 [alias]
