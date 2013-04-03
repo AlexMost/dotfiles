@@ -1,4 +1,6 @@
 [alias]
+c = commit
+cam = commit --amend
 d = diff
 i = in
 f = fetch
