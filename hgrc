@@ -1,4 +1,5 @@
 [alias]
+a = annotate -vundl
 c = commit
 cam = commit --amend
 d = diff
