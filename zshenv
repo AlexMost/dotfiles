@@ -10,6 +10,11 @@ case $OSTYPE in
   darwin* ) export BROWSER='open';;
 esac
 
+# Set file browser
+case $OSTYPE in
+  linux* ) export FILE_BROWSER='nautilus';;
+esac
+
 alias open='$BROWSER'
 
 # Set editors
