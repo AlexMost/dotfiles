@@ -17,6 +17,7 @@
 	ci = commit
 	cf = cat-file
 	co = checkout
+	cr = clone --recursive
 	cam = commit --amend
 	cim = commit -m
 	cof = checkout -f
