@@ -52,3 +52,5 @@
 	user = pavel-v-chernykh
 [core]
 	editor = vim
+[push]
+	default = simple
