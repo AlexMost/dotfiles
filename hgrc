@@ -1,10 +1,12 @@
 [alias]
 a = annotate -vundl
 c = commit
+cim = commit -m
 cam = commit --amend
 d = diff
 i = in
 f = fetch
+m = merge
 o = out
 pl = pull
 ps = push
