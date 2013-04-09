@@ -34,6 +34,7 @@
 	pl = pull
 	ps = push
 	r = reset
+	ra = remote add
 	rl = reflog
 	ri = rebase --interactive
 	rv = remote --verbose
