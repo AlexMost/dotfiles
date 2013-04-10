@@ -40,6 +40,8 @@
 	s = status
 	sb = show-branch
 	sba = show-branch --all
+	sm = submodule
+	sma = submodule add
 	st = stash
 	stp = stash pop
 	stl = stash list
