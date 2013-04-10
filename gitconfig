@@ -13,15 +13,14 @@
 	bv = branch -v
 	bav = branch -av
 	c = clone
-	cb = checkout -b
 	ci = commit
-	cf = cat-file
 	co = checkout
 	cr = clone --recursive
-	cam = commit --amend
+	cia = commit --amend
 	cim = commit -m
-	cof = checkout -f
 	ciam = commit -a -m
+	cob = checkout -b
+	cof = checkout -f
 	d = diff
 	ds = diff --staged
 	dt = difftool
@@ -42,8 +41,8 @@
 	sb = show-branch
 	sba = show-branch --all
 	st = stash
-	sp = stash pop
-	sl = stash list
+	stp = stash pop
+	stl = stash list
 	t = tag
 [merge]
 	tool = meld
