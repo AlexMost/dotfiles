@@ -1,7 +1,12 @@
 #!/bin/bash
 
 REPO="https://github.com/AlexMost/dotfiles.git --recursive"
-EXCLUDE=(README.md install.sh)
+EXCLUDE=(README.md install.sh gitconfig hgrc)
+
+GIT_USER_NAME="Alexander Mostovenko"
+GIT_MAIL="alexmost1989@gmail.com"
+
+
 BACKUPS_FOLDER=".dotbackup"
 DOT_FOLDER=".dot"
 L="   ---- "
@@ -46,5 +51,9 @@ else
             ln -s "$HOME/$DOT_FOLDER/$i" $LINK
         fi
     done
+
+    git config --global user.name "$GIT_USER_NAME"
+    git config --global user.name "$GIT_USER_MAIL"
+
     source ~/.zshrc
 fi

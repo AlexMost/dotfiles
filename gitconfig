@@ -1,6 +1,6 @@
 [user]
-	name = Pavel Chernykh
-	email = pavel.v.chernykh@gmail.com
+	name = Alexander Mostovenko
+	email = alexmost1989@gmail.com
 [color]
 	ui = true
 [diff]
@@ -51,8 +51,8 @@
 [web]
 	browser = google-chrome
 [github]
-	user = pavel-v-chernykh
+	user = AlexMost
 [core]
 	editor = vim
 [push]
-	default = simple
+	default = current
