@@ -34,7 +34,6 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'arcanist' \
   'git' \
   'mercurial' \
   'archive' \
