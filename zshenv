@@ -54,5 +54,5 @@ export ISE_EIFFEL=$HOME/opt/eiffel
 export ISE_LIBRARY=$ISE_EIFFEL
 export EIFFELBASE2=$ISE_EIFFEL/unstable/library/base2
 export ISE_PLATFORM=linux-x86-64
-export PATH=$PATH:$ISE_EIFFEL/studio/spec/$ISE_PLATFORM/bin
+export PATH=$PATH:$ISE_EIFFEL/studio/spec/$ISE_PLATFORM/bin:/$HOME/bin
 
