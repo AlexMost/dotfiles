@@ -442,7 +442,7 @@ endif
 
 " Color Scheme ----------------------------------------------------------- {{{
 
-colorscheme Tomorrow-Night-Bright
+silent! colorscheme Tomorrow-Night-Bright
 
 " }}}
 " Status Line ------------------------------------------------------------ {{{

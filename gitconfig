@@ -42,6 +42,7 @@
 	sba = show-branch --all
 	sm = submodule
 	sma = submodule add
+	smu = submodule update
 	st = stash
 	stp = stash pop
 	stl = stash list
