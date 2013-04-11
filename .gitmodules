@@ -4,3 +4,6 @@
 [submodule "vim/bundle/vundle"]
 	path = vim/bundle/vundle
 	url = git://github.com/gmarik/vundle.git
+[submodule "opt/fasd"]
+	path = opt/fasd
+	url = git://github.com/clvv/fasd.git
