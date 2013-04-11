@@ -4,5 +4,15 @@ HOME_PATH DEFAULT=${HOME}/bin
 JAVA_HOME DEFAULT=${HOME}/opt/jdk
 JAVA_PATH DEFAULT=${JAVA_HOME}/bin
 
-PATH DEFAULT=${HOME_PATH}:${JAVA_PATH}:${PATH}
+ARCANIST_HOME DEFAULT=${HOME}/opt/arcanist
+
+VIRTUALENVWRAPPER_SCRIPT DEFAULT=/etc/bash_completion.d/virtualenvwrapper
+VIRTUALENVWRAPPER_LAZY_SCRIPT DEFAULT=/usr/share/doc/virtualenvwrapper/examples/virtualenvwrapper_lazy.sh
+
+ISE_EIFFEL DEFAULT=${HOME}/opt/eiffel
+ISE_LIBRARY DEFAULT=${ISE_EIFFEL}
+IFFELBASE2 DEFAULT=${ISE_EIFFEL}/unstable/library/base2
+ISE_PLATFORM DEFAULT=linux-x86-64
+
+PATH DEFAULT=${HOME_PATH}:${JAVA_PATH}:${ISE_EIFFEL}/studio/spec/${ISE_PLATFORM}/bin:${PATH}
 
