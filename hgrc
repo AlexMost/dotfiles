@@ -13,6 +13,7 @@ o = out
 pl = pull
 ps = push
 s = status
+t = transplant
 u = update
 uc = update -C
 
