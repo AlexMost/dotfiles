@@ -23,6 +23,7 @@ in_array(){
 
 if [[ ! -d "$HOME/$DOT_FOLDER" ]]; then
     echo "cloning dotfiles ..."
+    mkdir "$HOME/$DOT_FOLDER"
     git clone $REPO "$HOME/.dot"
     cd "$HOME/$DOT_FOLDER"
     . ./install.sh
