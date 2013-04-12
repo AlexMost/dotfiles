@@ -32,32 +32,5 @@ if (( $+commands[lesspipe.sh] )); then
   export LESSOPEN='| /usr/bin/env lesspipe.sh %s 2>&-'
 fi
 
-# Set language
-if [[ -z "$LANG" ]]
-then
-  eval "$(locale)"
-fi
-
-# Set path variables
-typeset -gU cdpath fpath mailpath manpath path
-typeset -gUT INFOPATH infopath
-
-<<<<<<< HEAD
-# dotfile bin
-export PATH=$HOME/.bin:$PATH
-=======
-# arcanist
-export ARCANIST_HOME=$HOME/opt/arcanist
-
-# virtualenv
-export VIRTUALENVWRAPPER_SCRIPT=/etc/bash_completion.d/virtualenvwrapper
-export VIRTUALENVWRAPPER_LAZY_SCRIPT=/usr/share/doc/virtualenvwrapper/examples/virtualenvwrapper_lazy.sh
-
-# eiffel
-export ISE_EIFFEL=$HOME/opt/eiffel
-export ISE_LIBRARY=$ISE_EIFFEL
-export EIFFELBASE2=$ISE_EIFFEL/unstable/library/base2
-export ISE_PLATFORM=linux-x86-64
-export PATH=$PATH:$ISE_EIFFEL/studio/spec/$ISE_PLATFORM/bin:/$HOME/bin
->>>>>>> origin/master
+export PATH=$PATH:/$HOME/bin:/usr/bin
 

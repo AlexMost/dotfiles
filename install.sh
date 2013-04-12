@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPO="https://github.com/AlexMost/dotfiles.git --recursive"
-EXCLUDE=(README.md install.sh gitconfig hgrc)
+EXCLUDE=(README.md install.sh gitconfig hgrc pam_environment)
 
 GIT_USER_NAME="Alexander Mostovenko"
 GIT_MAIL="alexmost1989@gmail.com"
