@@ -39,13 +39,14 @@
 	rv = remote --verbose
 	s = status
 	sb = show-branch
-	sba = show-branch --all
 	sm = submodule
+	st = stash
+	sba = show-branch --all
 	sma = submodule add
 	smu = submodule update
-	st = stash
-	stp = stash pop
 	stl = stash list
+	stp = stash pop
+	smur = submodule update --recursive
 	t = tag
 [merge]
 	tool = meld
