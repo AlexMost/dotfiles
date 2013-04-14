@@ -4,8 +4,11 @@ c = commit
 cim = commit -m
 cam = commit --amend
 d = diff
+gl = glog --style=$HOME/.mercurial/templates/gl
 i = in
 l = log
+ln = log --style=$HOME/.mercurial/templates/ln
+ls = log --style=$HOME/.mercurial/templates/ls
 f = fetch
 m = merge
 ml = log -u "Pavel Chernykh"
