@@ -26,9 +26,14 @@ mercurial_keyring =
 fetch =
 transplant =
 bookmarks =
+pager =
+graphlog =
 
 [diff]
 git = True
 
 [merge-tools]
 meld.args = $base $local $other
+
+[pager]
+pager = less
