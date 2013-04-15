@@ -1,3 +1,6 @@
+[ui]
+username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
+
 [alias]
 a = annotate -vundl
 c = commit
@@ -15,13 +18,11 @@ ml = log -u "Pavel Chernykh"
 o = out
 pl = pull
 ps = push
+r = revert
 s = status
 t = transplant
 u = update
 uc = update -C
-
-[ui]
-username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
 
 [extensions]
 color =
@@ -40,3 +41,4 @@ meld.args = $base $local $other
 
 [pager]
 pager = less
+
