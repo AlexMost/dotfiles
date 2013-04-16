@@ -1,21 +1,28 @@
+[ui]
+username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
+
 [alias]
 a = annotate -vundl
 c = commit
 cim = commit -m
 cam = commit --amend
 d = diff
+gl = glog --style=$HOME/.mercurial/templates/gl
 i = in
+l = log
+ln = log --style=$HOME/.mercurial/templates/ln
+ls = log --style=$HOME/.mercurial/templates/ls
 f = fetch
 m = merge
+ml = log -u "Pavel Chernykh"
 o = out
 pl = pull
 ps = push
+r = revert
 s = status
+t = transplant
 u = update
 uc = update -C
-
-[ui]
-username = Pavel Chernykh <pavel.v.chernykh@gmail.com>
 
 [extensions]
 color =
@@ -23,9 +30,15 @@ mercurial_keyring =
 fetch =
 transplant =
 bookmarks =
+pager =
+graphlog =
 
 [diff]
 git = True
 
 [merge-tools]
 meld.args = $base $local $other
+
+[pager]
+pager = less
+
