@@ -10,11 +10,12 @@ d = diff
 gl = glog --style=$HOME/.mercurial/templates/gl
 i = in
 l = log
+lm = log -u "Pavel Chernykh"
 ln = log --style=$HOME/.mercurial/templates/ln
 ls = log --style=$HOME/.mercurial/templates/ls
 f = fetch
+h = heads
 m = merge
-ml = log -u "Pavel Chernykh"
 o = out
 pl = pull
 ps = push
