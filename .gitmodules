@@ -7,3 +7,6 @@
 [submodule "opt/fasd"]
 	path = opt/fasd
 	url = git://github.com/clvv/fasd.git
+[submodule "opt/gprof2dot"]
+	path = opt/gprof2dot
+	url = https://code.google.com/p/jrfonseca.gprof2dot/
