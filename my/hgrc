@@ -33,6 +33,7 @@ transplant =
 bookmarks =
 pager =
 graphlog =
+purge =
 
 [diff]
 git = True
