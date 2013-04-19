@@ -10,3 +10,6 @@
 [submodule "opt/gprof2dot"]
 	path = opt/gprof2dot
 	url = https://code.google.com/p/jrfonseca.gprof2dot/
+[submodule "carton"]
+	path = carton
+	url = https://github.com/rejeep/carton.git
